@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "obj-detection",
-    "slug": "obj-detection",
+    "name": "react-native-obj-detection",
+    "slug": "react-native-obj-detection",
     "platforms": [
       "ios",
       "android",

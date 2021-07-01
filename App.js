@@ -54,9 +54,9 @@ export default class CocoSsdScreen extends React.Component {
     const buffer = new Uint8Array(width * height * 3)
     let offset = 0 // offset into original data
     for (let i = 0; i < buffer.length; i += 3) {
-      buffer[i] = data[offset]
-      buffer[i + 1] = data[offset + 1]
-      buffer[i + 2] = data[offset + 2]
+      buffer[i] = data[offset] // Red
+      buffer[i + 1] = data[offset + 1] // Green
+      buffer[i + 2] = data[offset + 2] // Blue
 
       offset += 4
     }
